@@ -22,6 +22,26 @@ public class CashStream {
 	private LocalDate date;
 
 	/**
+	 * The amount of interest paid in this cash stream
+	 */
+	private BigDecimal interest;
+	
+	/**
+	 * The amount of fees paid in this cash stream
+	 */
+	private BigDecimal fees;
+	
+	/**
+	 * The cost of insurance paid in this cash stream
+	 */
+	private BigDecimal insuranceCost;
+	
+	/**
+	 * The amount of principal repaid in this cash stream
+	 */
+	private BigDecimal principalRepaymentAmount;
+	
+	/**
 	 * @return the amount
 	 */
 	public BigDecimal getAmount() {
@@ -47,6 +67,62 @@ public class CashStream {
 	 */
 	public void setDate(LocalDate date) {
 		this.date = date;
+	}
+
+	/**
+	 * @return the interest
+	 */
+	public BigDecimal getInterest() {
+		return interest;
+	}
+
+	/**
+	 * @param interest the interest to set
+	 */
+	public void setInterest(BigDecimal interest) {
+		this.interest = interest;
+	}
+
+	/**
+	 * @return the fees
+	 */
+	public BigDecimal getFees() {
+		return fees;
+	}
+
+	/**
+	 * @param fees the fees to set
+	 */
+	public void setFees(BigDecimal fees) {
+		this.fees = fees;
+	}
+
+	/**
+	 * @return the insuranceCost
+	 */
+	public BigDecimal getInsuranceCost() {
+		return insuranceCost;
+	}
+
+	/**
+	 * @param insuranceCost the insuranceCost to set
+	 */
+	public void setInsuranceCost(BigDecimal insuranceCost) {
+		this.insuranceCost = insuranceCost;
+	}
+
+	/**
+	 * @return the principalRepaymentAmount
+	 */
+	public BigDecimal getPrincipalRepaymentAmount() {
+		return principalRepaymentAmount;
+	}
+
+	/**
+	 * @param principalRepaymentAmount the principalRepaymentAmount to set
+	 */
+	public void setPrincipalRepaymentAmount(BigDecimal principalRepaymentAmount) {
+		this.principalRepaymentAmount = principalRepaymentAmount;
 	}
 	
 	
