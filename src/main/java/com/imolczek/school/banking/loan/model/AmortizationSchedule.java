@@ -12,7 +12,7 @@ public class AmortizationSchedule {
 	/**
 	 * The list of cash streams
 	 */
-	private List<CashStream> cashStreamList;
+	private List<CashStream> cashStreamList = new ArrayList<CashStream>();
 
 	/**
 	 * @return the cashStreamList
