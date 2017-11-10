@@ -3,6 +3,8 @@ package com.imolczek.school.banking.loan.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * @author Fabian Bouché
  * An amortization schedule provides the list of the cash stream events for the reimbursement of a loan

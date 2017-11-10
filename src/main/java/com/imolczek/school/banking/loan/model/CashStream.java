@@ -3,6 +3,8 @@ package com.imolczek.school.banking.loan.model;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * @author Fabian Bouché
  * A cash stream is a money stream associated with a date of execution
